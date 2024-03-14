@@ -1,23 +1,26 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'MVSR Engineering College',
+        course: 'B.E Computer Science',
+        startYear: '2020',
+        endYear: '2024',
+        CGPA: '8.4'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        institution: 'Narayana Junior College',
+        course: 'Intermediate',
+        startYear: '2018',
+        endYear: '2020',
+        CGPA: '9.8'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'Tejaswi High School',
+        course: 'High School',
+        startYear: '2017',
+        endYear: '2018',
+        CGPA: '10'
     },
 ]

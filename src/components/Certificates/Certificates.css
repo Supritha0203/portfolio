@@ -1,13 +1,14 @@
-.achievement {
+.certificate {
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: flex-start;
   align-items: flex-start;
+
   padding: 3rem;
 }
 
-.achievement-body {
+.certificate-body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -16,19 +17,19 @@
   width: 90%;
 }
 
-.achievement-body h1 {
+.certificate-body h1 {
   font-family: var(--primaryFont);
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
 }
 
-.achievement-body h4 {
+.certificate-body h4 {
   font-size: 1.75rem;
   font-family: "Caveat", cursive;
   font-weight: 400;
 }
 
-.achievement-cards {
+.certificate-cards {
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -39,7 +40,7 @@
   flex: 0.6;
 }
 
-.achievement-card {
+.certificate-card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -54,7 +55,7 @@
   position: relative;
 }
 
-.achievecard-content {
+.certificatecard-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -62,7 +63,7 @@
   width: 65%;
 }
 
-.achievecard-details2 {
+.certificatecard-details2 {
   display: flex;
   flex-direction: row;
   width: 50%;
@@ -74,22 +75,22 @@
   left: 25px;
 }
 
-.achievecard-details2 h5 {
+.certificatecard-details2 h5 {
   width: 50%;
 }
 
-.achievecard-field {
+.certificatecard-field {
   width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.achievecard-field svg {
+.certificatecard-field svg {
   margin-right: 6px;
 }
 
-.achievecard-details1 h2 {
+.certificatecard-details1 h2 {
   font-family: var(--primaryFont);
   font-weight: 500;
   font-size: 1.225rem;
@@ -97,28 +98,28 @@
   margin-bottom: 6px;
 }
 
-.achievecard-details1 p {
+.certificatecard-details1 p {
   font-size: 1.1rem;
   font-family: var(--primaryFont);
   font-weight: 400;
 }
 
-.achievecard-imgcontainer {
+.certificatecard-imgcontainer {
   width: 23%;
 }
 
-.achievecard-imgcontainer > img {
+.certificatecard-imgcontainer > img {
   width: 150px;
   height: 130px;
   border-radius: 10px;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
-  .achievement-card {
+  .certificate-card {
     justify-content: flex-start;
   }
 
-  .achievement-body {
+  .certificate-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -126,24 +127,24 @@
     flex: 0.3;
     width: 90%;
   }
-  .achievement-body h1 {
+  .certificate-body h1 {
     font-family: var(--primaryFont);
     font-size: 3.1rem;
   }
 
-  .achievement-cards {
+  .certificate-cards {
     padding: 1rem;
     margin-left: 1%;
     width: 100%;
     flex: 0.7;
   }
-  .achievecard-imgcontainer {
+  .certificatecard-imgcontainer {
     margin-left: 1rem;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .achievement {
+  .certificate {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,79 +153,79 @@
     padding: 2rem;
   }
 
-  .achievement-body {
+  .certificate-body {
     width: 100%;
   }
 
-  .achievement-body h1 {
+  .certificate-body h1 {
     font-size: 2.5rem;
   }
 
-  .achievement-cards {
+  .certificate-cards {
     margin-left: 0%;
     padding: 1rem 0;
     width: 80%;
     margin-top: 1rem;
   }
 
-  .achievement-card {
+  .certificate-card {
     margin-left: 0px;
     height: fit-content;
   }
 
-  .achievecard-content {
+  .certificatecard-content {
     width: 70%;
   }
 
-  .achievecard-details1 {
+  .certificatecard-details1 {
     margin-bottom: 20px;
   }
 
-  .achievecard-details1 h2 {
+  .certificatecard-details1 h2 {
     font-size: 1.15rem;
   }
 
-  .achievecard-details1 p {
+  .certificatecard-details1 p {
     font-size: 0.95rem;
   }
 
-  .achievecard-details2 {
+  .certificatecard-details2 {
     width: 85%;
     position: absolute;
     bottom: 7px;
     left: 25px;
   }
 
-  .achievecard-imgcontainer {
+  .certificatecard-imgcontainer {
     width: 30%;
     display: flex;
     justify-content: center;
   }
 
-  .achievecard-imgcontainer > img {
+  .certificatecard-imgcontainer > img {
     width: 80px;
     height: 70px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .achievement {
+  .certificate {
     padding: 1rem;
   }
-  .achievement-cards {
+  .certificate-cards {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .achievement-body h4 {
+  .certificate-body h4 {
     font-size: 1.5rem;
   }
 
-  .achievecard-details1 p {
+  .certificatecard-details1 p {
     font-size: 0.95rem;
   }
-  .achievecard-imgcontainer > img {
+  .certificatecard-imgcontainer > img {
     width: 70px;
     height: 60px;
   }

@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { ThemeContext } from './contexts/ThemeContext';
 import { Main, BlogPage, ProjectPage } from './pages'
 import { BackToTop } from './components'
-import ScrollToTop from './utils/ScrollToTop'
+// import ScrollToTop from './utils/ScrollToTop'
 
 import './App.css'
 
@@ -19,14 +19,14 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <ScrollToTop/>
-        <Switch>
-          <Route path="/" exact component={Main} />
-          <Route path="/blog" exact component={BlogPage} />
-          <Route path="/projects" exact component={ProjectPage} />
+        {/* <ScrollToTop/> */}
+        <Routes>
+          <Route path="/" exact element={<Main/>} />
+          <Route path="/blog" exact element={<BlogPage/>} />
+          <Route path="/projects" exact element={<ProjectPage/>} />
 
-          <Redirect to="/" />
-        </Switch>
+          {/* <Redirect to="/" /> */}
+        </Routes>
       </Router>
       <BackToTop />
     </div>
