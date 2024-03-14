@@ -1,4 +1,4 @@
-import resume from "../assets/pdf/Supritha Rao.pdf";
+import resume from "../assets/pdf/Supritha_resume.pdf";
 import profile from "../assets/profile/nice pic.jpg";
 export const headerData = {
   name: "Supritha Rao Mamindlapelly",
