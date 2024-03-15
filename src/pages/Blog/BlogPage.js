@@ -83,8 +83,16 @@ function BlogPage() {
         <Link to="/">
           <AiOutlineHome className={classes.home} />
         </Link>
-        <h1 style={{ color: theme.secondary }}>Hobbies</h1>
+        <div style={{}} className="header-section">
+          <h1 style={{ color: theme.secondary }}>Hobbies</h1>
+
+          <h3>
+            Take a quick peek at my hobbies to discover the fun and playful side
+            of me!
+          </h3>
+        </div>
       </div>
+
       <div className="blogPage--container">
         <div className="blog--search">
           <input

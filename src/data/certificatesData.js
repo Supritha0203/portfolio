@@ -1,5 +1,5 @@
 export const certificatesData = {
-  bio: "Here are few of my certifications",
+  bio: "Within my repertoire lie various certifications, each a testament to my commitment to continuous learning and growth.",
   certificates: [
     {
       id: 1,
