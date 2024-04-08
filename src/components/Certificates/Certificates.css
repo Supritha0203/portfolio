@@ -52,7 +52,7 @@
 .certificate-body {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   justify-content: space-evenly;
   flex: 0.4;
   width: 90%;
@@ -73,7 +73,7 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   justify-content: center;
   margin-left: 5%;
   width: 100%;
@@ -83,8 +83,8 @@
 .certificate-card {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  /* align-items: flex-start; */
+  justify-content: space-evenly;
   height: 170px;
   padding: 1.5rem;
   border-radius: 20px;
@@ -93,6 +93,7 @@
   transition: background-color 200ms ease-in-out;
   width: 100%;
   position: relative;
+  cursor: pointer;
 }
 
 .certificatecard-content {
@@ -156,7 +157,8 @@
 
 @media (min-width: 992px) and (max-width: 1380px) {
   .certificate-card {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    cursor: pointer;
   }
 
   .certificate-body {

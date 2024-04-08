@@ -19,7 +19,7 @@
 .achievement-body {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   justify-content: space-evenly;
   flex: 0.4;
   width: 90%;
@@ -77,7 +77,7 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   justify-content: center;
   margin-left: 5%;
   width: 100%;
@@ -87,8 +87,8 @@
 .achievement-card {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  /* align-items: flex-start; */
+  justify-content: space-evenly;
   height: 170px;
   padding: 1.5rem;
   border-radius: 20px;

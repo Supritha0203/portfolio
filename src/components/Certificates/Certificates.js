@@ -53,14 +53,17 @@ function Certificates() {
             </div>
             <div className="certificate-cards">
               {certificatesData.certificates.slice(0, 3).map((certificate) => (
-                <CertificateCard
-                  key={certificate.id}
-                  id={certificate.id}
-                  title={certificate.title}
-                  details={certificate.details}
-                  date={certificate.date}
-                  image={certificate.image}
-                />
+                <a href={certificate.url} target="_blank" rel="noopener noreferrer">
+                  <CertificateCard
+                    key={certificate.id}
+                    id={certificate.id}
+                    title={certificate.title}
+                    details={certificate.details}
+                    date={certificate.date}
+                    image={certificate.image}
+                    url={certificate.url}
+                  />
+                </a>
               ))}
             </div>
           </div>

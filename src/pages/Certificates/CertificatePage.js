@@ -112,6 +112,7 @@ function CertificatePage() {
                 title={project.title}
                 details={project.details}
                 image={project.image}
+                url={project.url}
               />
             ))}
           </Grid>

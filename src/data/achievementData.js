@@ -67,7 +67,7 @@ export const achievementData = {
         "https://media.istockphoto.com/id/175489635/photo/writing-letter-to-a-friend.jpg?s=612x612&w=0&k=20&c=dpxaK6t_jUcjTpSC3k7OUtqOps8bCBhYCLqEsCKrpZg=",
     },
     {
-      id: 6,
+      id: 8,
       title: " Tug of War Event",
       details:
         "Conducted the highest grossing fun event at our college in CSI  Fusion in 2020",
@@ -77,7 +77,7 @@ export const achievementData = {
         "https://media.istockphoto.com/id/1192852681/photo/close-up-of-hands-playing-tug-of-war-group-of-friends-playing-outdoor-games-in-changing.webp?b=1&s=170667a&w=0&k=20&c=XOtt3QClVoXgKwW7tsjAHQaJLss0SdmE1IyZc1iuu2g=",
     },
     {
-      id: 6,
+      id: 9,
       title: "Spelling Bee",
       details: "Multiple times Spelling Bee District level champion",
       date: "",
@@ -86,7 +86,7 @@ export const achievementData = {
         "https://media.istockphoto.com/id/1217313998/vector/font-design-for-word-spelling-bee-with-bee-writing.jpg?s=612x612&w=0&k=20&c=SeD9clPtEW97vp2zfCYMDAk2o3HRTDsohU4YhAvMPow=",
     },
     {
-      id: 6,
+      id: 10,
       title: "Performance",
       details:
         "Honored by Tejaswi High School for being a top performer in the school scoring 10 GPA in SSC examination",

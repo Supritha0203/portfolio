@@ -20,7 +20,6 @@ function AchievementPage() {
       return content.toLowerCase().includes(search.toLowerCase());
     }
   );
-  console.log("🚀 ~ AchievementPage ~ filteredArticles:", filteredArticles);
 
   const useStyles = makeStyles((t) => ({
     search: {
