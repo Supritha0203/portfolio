@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import { HiArrowRight } from "react-icons/hi";
 
-import "./Blog.css";
+import "./Hobbie.css";
 import { ThemeContext } from "../../contexts/ThemeContext";
-import { blogData } from "../../data/blogData";
-import SingleBlog from "./SingleBlog/Singleblog";
+import { hobbieData } from "../../data/hobbieData";
+import SingleHobbie from "./SingleHobbie/SingleHobbie";
 
-function Blog() {
+function Hobbie() {
   const { theme } = useContext(ThemeContext);
 
   const useStyles = makeStyles(() => ({
@@ -40,34 +40,33 @@ function Blog() {
 
   return (
     <>
-      {blogData.length > 0 && (
+      {hobbieData.length > 0 && (
         <div
           className="blog"
           id="blog"
           style={{ backgroundColor: theme.secondary }}
         >
           <div className="blog--header">
-            <h1 style={{ color: theme.primary }}>Blogs</h1>
+            <h1 style={{ color: theme.primary }}>Hobbies</h1>
           </div>
           <div className="blog--body">
             <div className="blog--bodyContainer">
-              {blogData
+              {hobbieData
                 .slice(0, 3)
                 .reverse()
                 .map((blog) => (
-                  <SingleBlog
+                  <SingleHobbie
                     theme={theme}
                     title={blog.title}
                     desc={blog.description}
                     image={blog.image}
                     key={blog.id}
                     id={blog.id}
-                    url={blog.url}
                   />
                 ))}
             </div>
 
-            {blogData.length > 3 && (
+            {hobbieData.length > 3 && (
               <div className="blog--viewAll">
                 <Link to="/blog">
                   <button className={classes.viewAllBtn}>
@@ -84,4 +83,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Hobbie;

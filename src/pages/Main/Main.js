@@ -18,6 +18,7 @@ import {
 } from "../../components";
 import { headerData } from "../../data/headerData";
 import Certificates from "../../components/Certificates/Certificates";
+import Hobbie from "../../components/Hobbie/Hobbie";
 
 function Main() {
   return (
@@ -38,6 +39,7 @@ function Main() {
       <Certificates />
       {/* <Testimonials /> */}
       <Blog />
+      <Hobbie/>
       <Contacts />
       <Footer />
     </div>

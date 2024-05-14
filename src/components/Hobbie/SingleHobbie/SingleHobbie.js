@@ -2,12 +2,11 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 import placeholder from "../../../assets/png/placeholder.png";
-import "./Singleblog.css";
+import "./SingleHobbie.css";
 
- export default function SingleBlog({ theme, title, desc, date, image, url, id }) {
+function SingleHobbie({ theme, title, desc, date, image, url, id }) {
   return (
     <Fade bottom>
-      <a href={url} target="_blank" rel="noreferrer">
       <div
         className="singleBlog"
         key={id}
@@ -24,7 +23,8 @@ import "./Singleblog.css";
           <h6 style={{ color: theme.secondary }}>{desc}</h6>
         </div>
       </div>
-      </a>
     </Fade>
-    );
-  }// Add a closing parenthesis here
+  );
+}
+
+export default SingleHobbie;

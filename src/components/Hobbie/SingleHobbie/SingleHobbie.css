@@ -58,21 +58,6 @@
     opacity: 0.9;
 }
 
-.tooltip-container {
-    position: relative;
-  }
-  
-  .tooltip-content {
-    color: #333; /* Change color as needed */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .tooltip-content:hover {
-    cursor: pointer; /* Change cursor to indicate tooltip */
-  }
-  
 
 
 @media (min-width: 992px) and (max-width: 1380px) {

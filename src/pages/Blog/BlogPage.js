@@ -8,14 +8,14 @@ import { AiOutlineHome } from "react-icons/ai";
 import "./BlogPage.css";
 import { SingleBlog } from "../../components";
 import { ThemeContext } from "../../contexts/ThemeContext";
-import { blogData } from "../../data/blogData";
+import { hobbieData } from "../../data/hobbieData";
 import { headerData } from "../../data/headerData";
 
 function BlogPage() {
   const [search, setSearch] = useState("");
   const { theme } = useContext(ThemeContext);
 
-  const filteredArticles = blogData.filter((blog) => {
+  const filteredArticles = hobbieData.filter((blog) => {
     const content = blog.title + blog.description + blog.date;
     return content.toLowerCase().includes(search.toLowerCase());
   });
