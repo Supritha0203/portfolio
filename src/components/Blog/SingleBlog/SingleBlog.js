@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 import placeholder from "../../../assets/png/placeholder.png";
-import "./Singleblog.css";
+import "./SingleBlog.css";
 
  export default function SingleBlog({ theme, title, desc, date, image, url, id }) {
   return (
