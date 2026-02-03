@@ -1,7 +1,7 @@
 export const aboutData = {
   title: "Anecdote!!",
   description1:
-    "My name's Supritha Rao. I'm a Web and Flutter App developer based in Hyderabad, Listen to my story.",
+    "My name's Supritha Rao. I'm a Software developer based in Hyderabad, Listen to my story.",
   description2:
     "Once upon a time, in a kingdom ruled by pixels and logic, there lived a valiant developer named Supritha.  Unlike the damsels in distress of yore, Supritha wasn't afraid of tangled code or glitchy dragons.  Armed with a trusty keyboard and a magical arsenal of languages - HTML, the eloquent storyteller; CSS, the weaver of visual wonders; and JavaScript, the mischievous prankster with a heart of gold - Supritha could breathe life into any digital canvas.",
   description3:

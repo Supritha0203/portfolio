@@ -26,7 +26,7 @@ export const achievementData = {
       date: "",
       field: "",
       image:
-        "https://media.licdn.com/dms/image/D560BAQG7wCr8ecxg7g/company-logo_200_200/0/1693554422709/catalogfi_logo?e=1718236800&v=beta&t=8tEL3cWvPHtG77NndgDkvG8ReiGvgIJWm88h5UJDbEc",
+        "https://media.licdn.com/dms/image/v2/D560BAQE7nRN3JL_qZQ/company-logo_200_200/company-logo_200_200/0/1693804959067/possibleworks_logo?e=1771459200&v=beta&t=9zdc9mwFjp2Q7GFvDD5FuDUOniSKaGK4Ve8uakSAQLs",
     },
     {
       id: 4,
