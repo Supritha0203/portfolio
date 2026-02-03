@@ -4,8 +4,6 @@ import Fade from "react-reveal/Fade";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
 
-import { AiOutlineFolder } from "react-icons/ai";
-
 import "./Achievement.css";
 
 function AchievementCard({ id, title, details, date, image }) {

@@ -7,7 +7,6 @@ import {
   Landing,
   About,
   Skills,
-  Testimonials,
   Blog,
   Education,
   Experience,
